@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette — "notarial seal" concept */
+  --color-graphite-950: #0E1013;
+  --color-graphite-900: #14161A;
+  --color-graphite-800: #1D2025;
+  --color-graphite-700: #2A2E35;
+  --color-parchment: #EDEAE3;
+  --color-parchment-dim: #A8A49A;
+  --color-seal: #C08B4C;
+  --color-seal-bright: #D9A05F;
+  --color-seal-dim: #8A6435;
+  --color-danger: #C1554A;
+  --color-success: #6B9B7A;
+
+  /* Typography */
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+body {
+  background-color: var(--color-graphite-900);
+  color: var(--color-parchment);
+  font-family: var(--font-body);
+}
