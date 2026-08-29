@@ -2,8 +2,8 @@
 
 A production-style multi-signature wallet built with Foundry and React. Supports ETH transfers and arbitrary contract calls, with self-governed owner management, transaction cancellation, and a full audit trail.
 
-**Live demo:** _(link after deployment)_
-**Contract (Sepolia):** _(address here)_
+**Live demo:** _(https://multi-sig-wallet-foundry.netlify.app/)_
+**Contract (Sepolia):** _(https://sepolia.etherscan.io/address/0x800955263aed53Bd7131D6DB9933e66E4578ca38)_
 ![Multi-Sig Wallet Dashboard](./dashboard-screenshot.png)
 
 ---
